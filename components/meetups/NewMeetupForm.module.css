@@ -43,3 +43,34 @@
   background-color: #a50e48;
   border-color: #a50e48;
 }
+
+@media (max-width: 500px){
+  .control{
+    font-size: 0.7rem;
+  }
+  .control label {
+    margin-bottom: 0.3rem;
+  }
+  
+  .control input,
+  .control textarea {
+    padding: 1px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .actions button {
+    font-size: 0.7rem;
+    background-color: #ffffff;
+    color: black;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-weight: 400;
+  }
+  
+  .actions button:active {
+    background-color: white;
+    border-color: black
+  }
+}
