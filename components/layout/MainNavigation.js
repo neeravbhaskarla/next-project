@@ -4,7 +4,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Meet Kondallrao</div>
+      <div className={classes.logo}>Meet Up</div>
       <nav>
         <ul>
           <li>
